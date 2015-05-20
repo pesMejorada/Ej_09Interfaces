@@ -21,6 +21,14 @@ public class Persona extends Humano implements Actor  {
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Persona-> Nombre:" + getNombre() + ", Apellidos:"
+				+ getApellidos() + "]";
+	}
+	
+	
+
 }
 
 
